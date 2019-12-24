@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+   }
+
+.nav-bar {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 30px;
+ 
+}
+.left-nav{
+  width:270px;
+  border: 1px solid rgba(145, 137, 137, 0.2);
+  display: grid;
+  grid-template-columns: 90px 100px;
+  height:130px;
+
+}
+
+.logout{
+  display: flex;
+  align-self: center;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding:4px;
+  color: black;
+  width:65px;
+  font-weight: 800;
+  position: relative;
+  cursor: pointer;
+  font-size:20px;
+
+
+}
+
+.container-profile{
+  width: 100%;
+  justify-content: center;
+  height: 600px;
+  margin-top: 100px;
+}
+
+
+.nav-item {
+  display: block;
+  margin-top:20px;
+  align-self: center;
+  color: white;
+  font-family: fantasy
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  font-weight: 900px;
+}
+.nav-item:hover {
+  cursor: pointer;
+}
+.second-title-text {
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.second-line {
+  position: relative;
+  bottom: 40px;
+}
+
+.dashboard-screen{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-items: center;
+}
+.side-item-1{
+  padding-top: 20px;
+  width:270px;
+  height:100vh;
+  border: 1px solid rgba(145, 137, 137, 0.2);
+}
+
+.chat{
+  text-align: center;
+  width: 100%;
+}
+.flex-profile{
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.chip{
+  margin-right: 30px;
+ background-color: black;
+}
+.MuiChip-label {
+font-size: larger !important;
+opacity: .7;
+}
+.MuiInputBase-input{
+ width:400px !important;
+ color: white !important;
+ padding: 10px !important;
+}
+.MuiButton-outlinedPrimary{
+  border: none !important;
+  font-size: 15px !important;
+}
+.active-title{
+  font-weight:800;
+  font-size: 25px;
+  padding-bottom: 5px;
+  font-family:monospace;
+}
+.chatfield{
+  background-color: grey;
+  border-radius: 6px;
+  opacity: .2;
+  display: flex;
+}
+
+.send-chat{
+  display: flex;
+  margin-left: 130px;
+}
+
+.nav-logo{
+  display: flex;
+  align-self: center;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding:4px;
+  color: black;
+  width:65px;
+  font-weight: 800;
+  position: relative;
+  cursor: pointer;
+  font-size:20px;
+
+}
+
+.topicsWindow{width:120px; height: 100%; border-right: 1px solid grey;}
+.chatWindow{width: 70%; height: 300px; padding:20px; overflow: hidden; margin-left: 100px;display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: monospace;
+}
+.chatBox{width: 85%;}
+.button{width: 15%; }

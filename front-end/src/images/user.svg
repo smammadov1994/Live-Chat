@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>user</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.612331081%" y1="-18.9295238%" x2="100%" y2="131.898626%" id="linearGradient-1">
+            <stop stop-color="#3FE7A9" offset="0%"></stop>
+            <stop stop-color="#3640CB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard_1" transform="translate(-1681.000000, -45.000000)" fill="url(#linearGradient-1)">
+            <circle id="user" cx="1709.5" cy="73.5" r="28.5"></circle>
+        </g>
+    </g>
+</svg>

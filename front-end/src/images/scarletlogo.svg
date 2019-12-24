@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="79px" viewBox="0 0 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="28.1724138" cy="41.7749451" rx="9.17241379" ry="9.08307692"></ellipse>
+        <filter x="-253.5%" y="-256.0%" width="607.0%" height="611.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="8" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.207843137   0 0 0 0 0.580392157   0 0 0 0 0.909803922  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landingPage" transform="translate(-38.000000, -16.000000)">
+            <g id="logo" transform="translate(49.000000, 14.000000)">
+                <ellipse id="Oval" fill="#FFFFFF" cx="29" cy="44.5" rx="24" ry="19.5"></ellipse>
+                <g id="Group-2">
+                    <ellipse id="Oval" fill="#2893B7" cx="28.1724138" cy="41.7749451" rx="5.89655172" ry="5.83912088"></ellipse>
+                    <g id="Group" fill="#000000" stroke="#000000" stroke-width="3">
+                        <path d="M16.220522,17.7723862 L16.179385,46.5442234 L41.0238802,32.0926117 L41.1172418,3.35058848 L16.220522,17.7723862 Z" id="Rectangle" transform="translate(28.650685, 24.948760) rotate(-300.000000) translate(-28.650685, -24.948760) "></path>
+                        <path d="M30.3305207,42.3277138 L30.4262341,70.8641976 L55.4317139,56.6337519 L55.3887985,28.1271441 L30.3305207,42.3277138 Z" id="Rectangle" transform="translate(42.880307, 49.496992) rotate(-360.000000) translate(-42.880307, -49.496992) "></path>
+                        <path d="M1.50293454,42.3277138 L1.59864786,70.8641976 L26.6041277,56.6337519 L26.5612122,28.1271441 L1.50293454,42.3277138 Z" id="Rectangle" transform="translate(14.052721, 49.496992) scale(-1, 1) rotate(-360.000000) translate(-14.052721, -49.496992) "></path>
+                    </g>
+                    <g id="Oval" style="mix-blend-mode: screen;">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#2E96F1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

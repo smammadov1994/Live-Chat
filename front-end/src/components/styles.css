@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+* {
+
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	color:white;
+}
+html {
+
+	scroll-behavior: smooth;
+}
+body {
+	background-color: black;
+	overflow: hidden;
+	overscroll-behavior-y: none;
+	overscroll-behavior-x: none;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.nav {
+	width: 100vw;
+	height: 65px;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: fixed;
+	z-index: 5;
+}
+.link-to-login{
+	text-decoration: none;
+	color:white;
+}
+
+
+.logo {
+	-ms-grid-column-align: start;
+	justify-self: start;
+	color:white;
+	font-size: 20px;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	padding-left: 30px;
+	font-weight: 600;
+	letter-spacing: 5.17px;
+}
+.signup-button {
+	-ms-grid-column-align: end;
+	justify-self: end;
+	border: .2px solid white;
+	background-color: black;
+	display: -ms-grid;
+	display: grid;
+	justify-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 2.17px;
+	text-align: center;
+	padding: 15px;
+	-webkit-transition: 400ms;
+	-o-transition: 400ms;
+	transition: 400ms;
+}
+.signup-button:hover {
+	cursor: pointer;
+	-webkit-transition: 400ms;
+	-o-transition: 400ms;
+	transition: 400ms;
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.hero-wrapper {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.call{
+	background-color: black;
+	font-size: 25px;
+}
+
+.blink {
+	animation: blink-animation 1.5s steps(5, start) infinite;
+	-webkit-animation: blink-animation 1.5s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+	to {
+	  visibility: hidden;
+	}
+  }
+  @-webkit-keyframes blink-animation {
+	to {
+	  visibility: hidden;
+	}
+  }
+
+
